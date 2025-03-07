@@ -18,7 +18,10 @@ Project from ABB's [RobotStudio](https://new.abb.com/products/robotics/software-
  - Controler - C30 OmniCore
  - RobotWare version - 7.14.3
 
-## Release version scheme - vC.R.O.
+## Downloading RobotStudio Project
+To get RobotStudio Project, please download the [lastest release](https://github.com/Glinek/IRB1100-Project/releases/latest)
+
+### Release version scheme - vC.R.O.
  - C. - Cad files version
  - R. - Robot Studio Version
  - O. - Other files version
