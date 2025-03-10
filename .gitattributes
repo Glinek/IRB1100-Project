@@ -1,1 +1,2 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
+/media/data/projects/PjSB3[[:space:]]-[[:space:]]Robots&PLCs/ABB/ABB[[:space:]]-[[:space:]]school[[:space:]]robot[[:space:]]in[[:space:]]RS[[:space:]]-[[:space:]]dev[[:space:]]folder/RobotStudio[[:space:]]Project[[:space:]]dev/Virtual[[:space:]]Controllers/IRB1100_4_58/internal/image.bin filter=lfs diff=lfs merge=lfs -text
