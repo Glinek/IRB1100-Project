@@ -21,10 +21,10 @@ Project from ABB's [RobotStudio](https://new.abb.com/products/robotics/software-
 ## Downloading RobotStudio Project
 To get RobotStudio Project, please download the [lastest release](https://github.com/Glinek/IRB1100-Project/releases/latest)
 
-### Release version scheme - vC.R.O.
- - C. - Cad files version
- - R. - Robot Studio Version
- - O. - Other files version
+### Release version scheme - vA.B.C.
+ - A. - Major model update
+ - B. - Minor model update
+ - C. - Other files version
 
 ## Author
 This project has been made in RobotStudio by **Szymon Glinka**, Robotics Engineering Student from TL Katowice in years **2021-2026**
