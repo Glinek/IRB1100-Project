@@ -24,7 +24,7 @@ To get RobotStudio Project, please download the [lastest release](https://github
 ### Release version scheme - vA.B.C.
  - A. - Major model update
  - B. - Minor model update
- - C. - Other files version
+ - C. - Other update
 
 ## Author
 This project has been made in RobotStudio by **Szymon Glinka**, Robotics Engineering Student from TL Katowice in years **2021-2026**
