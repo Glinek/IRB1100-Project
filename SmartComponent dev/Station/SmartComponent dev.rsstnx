@@ -3904,7 +3904,7 @@
       <Instances>
         <ObjectRef ID="2382" />
         <ObjectRef ID="2392" />
-        <ObjectRef ID="2394" />
+        <ObjectRef ID="2399" />
       </Instances>
       <Transform>
         <RowX X="1" Y="0" Z="0" W="0" />
@@ -3918,6 +3918,10 @@
       <ClipPlane ID="-1" />
       <Definitions>
         <ObjectRef ID="2390" />
+        <ObjectRef ID="2395" />
+        <ObjectRef ID="2396" />
+        <ObjectRef ID="2397" />
+        <ObjectRef ID="2398" />
       </Definitions>
       <Textures />
     </AssemblyRoot>
@@ -7856,8 +7860,8 @@
         <Double Value="0" />
         <Double Value="0" />
         <Double Value="0" />
-        <Double Value="0.523598790168762" />
-        <Double Value="-1.38462130649941E-10" />
+        <Double Value="0.523598775598299" />
+        <Double Value="0" />
       </JointValues>
       <CalibFrames />
       <CalibFrameKnownValid />
@@ -8016,10 +8020,10 @@
     <MechanismLinkInstance ID="2388" Name="Link5" Parent="2382" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="18" DocID="1" />
       <Transform>
-        <RowX X="0.866025396499204" Y="0" Z="-0.500000012618397" W="0" />
+        <RowX X="0.866025403784435" Y="0" Z="-0.500000000000006" W="0" />
         <RowY X="0" Y="1" Z="0" W="0" />
-        <RowZ X="0.500000012618397" Y="0" Z="0.866025396499204" W="0" />
-        <RowT X="-0.268307626735311" Y="0" Z="0.232662334145509" W="1" />
+        <RowZ X="0.500000000000006" Y="0" Z="0.866025403784435" W="0" />
+        <RowT X="-0.268307621135333" Y="0" Z="0.232662325865004" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8045,10 +8049,10 @@
     <MechanismLinkInstance ID="2389" Name="Link6" Parent="2382" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="19" DocID="1" />
       <Transform>
-        <RowX X="0.866025396499204" Y="0" Z="-0.500000012618397" W="0" />
-        <RowY X="-6.92280433588786E-11" Y="1" Z="-1.19916958821326E-10" W="0" />
-        <RowZ X="0.500000012618397" Y="1.38465154363203E-10" Z="0.866025396499204" W="0" />
-        <RowT X="-0.268307626735311" Y="-8.54314639894044E-11" Z="0.232662334145509" W="1" />
+        <RowX X="0.866025403784435" Y="0" Z="-0.500000000000006" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0.500000000000006" Y="0" Z="0.866025403784435" W="0" />
+        <RowT X="-0.268307621135333" Y="0" Z="0.232662325865004" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8117,7 +8121,7 @@
       <SignalValues>
         <Element Key="turnCONVEYORon">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -8137,7 +8141,7 @@
       <Attributes>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Object">
           <Value>
-            <ObjectRef ID="2394" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Color">
@@ -8198,19 +8202,102 @@
       <SignalValues>
         <Element Key="Active">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
       <RoleObject ID="-1" />
     </SmartComponentInstance>
-    <ComponentInstance ID="2394" Name="950_4000_h2" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
-      <Definition ID="4" DocID="3" />
+    <AssemblyDef ID="2395" Name="" Parent="1193" />
+    <PartDef ID="2396" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="6fba4e27e2e04671974a801b35aa0585" StreamChangeRef="8dce82ac577a4477bdd2e096930ec847" />
+      <BoundingBox>
+        <Min X="1.0635" Y="-0.0045000319480896" Z="-0.271496307373047" />
+        <Max X="1.0915" Y="0.000499969810247421" Z="-0.243503890991211" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="2397" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="39d6b9ec5a0c43fab419a66dfb1c15f8" StreamChangeRef="362b8036c0004c3daa4f3aa604fe89e4" />
+      <BoundingBox>
+        <Min X="1.06" Y="-0.00250003290176392" Z="-0.280000091552734" />
+        <Max X="1.095" Y="0.0574999694824219" Z="-0.235000106811523" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="2398" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="068f015e03c0463a91c08caf1fb3b152" StreamChangeRef="229254ca5e984f80a195a6ec72aba239" />
+      <BoundingBox>
+        <Min X="-0.0450000076293945" Y="-0.0225" Z="-0.6225" />
+        <Max X="1.265" Y="1.1525" Z="1.2625" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="2399" Name="CageLamps--11-03-2025" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="2395" />
+      <ChildInstances>
+        <ObjectRef ID="2400" />
+        <ObjectRef ID="2401" />
+        <ObjectRef ID="2402" />
+      </ChildInstances>
       <Transform>
         <RowX X="1" Y="0" Z="0" W="0" />
         <RowY X="0" Y="1" Z="0" W="0" />
         <RowZ X="0" Y="0" Z="1" W="0" />
-        <RowT X="0.7723910821001" Y="0" Z="0" W="1" />
+        <RowT X="-0.613589120343996" Y="-0.690147955248843" Z="0.113708378376845" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="GraphicComponentGroup" />
+      <ClipPlane ID="-1" />
+    </ComponentInstance>
+    <ComponentInstance ID="2400" Name="node0" Parent="2399" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="2396" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="2401" Name="node1" Parent="2399" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="2397" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="2402" Name="node2" Parent="2399" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="2398" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8228,6 +8315,5 @@
   <ReferencedDocuments>
     <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRB1100%\IRB1100_4_58__02.rslib" RelativeLocation="C:\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRB1100-2.6\RobotStudio\LibraryComponents\IRB1100_4_58__02.rslib" GUID="{DFD3FE7D-10DC-4BF3-B184-77A7B1CCF8FA}" />
     <DocRef ID="2" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\Highlighter.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2025\ABB Library\Components\Highlighter.rslib" GUID="{E56F620F-7B67-4617-94F4-33ED3B6F4B46}" />
-    <DocRef ID="3" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.Conveyors%\Conveyor 950 4000 h2.rslib" RelativeLocation="C:\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.Conveyors-1.1\RobotStudio\LibraryComponents\Conveyor 950 4000 h2.rslib" GUID="{244D9B4C-44ED-4681-A228-338DCEE32952}" />
   </ReferencedDocuments>
 </PIMDocument>
