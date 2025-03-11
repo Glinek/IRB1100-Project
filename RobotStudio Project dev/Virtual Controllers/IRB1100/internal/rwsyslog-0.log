@@ -108,6 +108,16 @@
 <13>Mar 10 19:43:08 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00108|-|robot|	108
 <13>Mar 10 19:43:08 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00109|-|robot|	109
 <13>Mar 10 19:43:08 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|Socket=2952|1210|00110|-|robot|	110
+<13>Mar 11 06:52:21 NoControllerName ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00111|-|robot|Admin	111
+<13>Mar 11 06:52:21 NoControllerName ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00112|-|robot|Admin	112
+<13>Mar 11 06:59:19 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00113|-|robot|	113
+<13>Mar 11 06:59:19 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|Socket=1552|1210|00114|-|robot|	114
+<13>Mar 11 07:04:41 NoControllerName ABB-UAL:01:Log-in successful|-|UAS_UID=589831|1110|00115|-|robot|Admin	115
+<13>Mar 11 07:04:41 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00116|-|robot|	116
+<13>Mar 11 07:04:41 NoControllerName ABB-UAL:01:Log-in successful|-|UAS_UID=655368|1110|00117|-|robot|Admin	117
+<13>Mar 11 07:12:56 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=655368|1210|00118|-|robot|	118
+<13>Mar 11 07:12:56 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=589831|1210|00119|-|robot|	119
+<13>Mar 11 07:12:56 NoControllerName ABB-UAL:01:Log-out (user logged out)|-|Socket=2876|1210|00120|-|robot|	120
 -----BEGIN DIGEST-----
-vX0kGIo/Q1rfULuP6PGDjq27CQGW7HPPd3tKu/zUcLZBbq2iCCeYxqqtSaBokDulSd/2LQ==
+WD7OSpYft+6U3y5Zcl7k8clCD3COEp931bxxzo+6WmyV7rxY/oRkK94fgC4hjf7Jt39JXw==
 -----END DIGEST-----

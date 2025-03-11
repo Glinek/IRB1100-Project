@@ -1,0 +1,15 @@
+<9>Mar 11 07:26:06 IRB1100_4_58 ABB-UAL:01:Security log file deleted by user|-|syslog.log not found|3420|00001|-|robot|syslog	1
+<13>Mar 11 07:26:12 IRB1100_4_58 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00002|-|robot|Admin	2
+<13>Mar 11 07:26:12 IRB1100_4_58 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00003|-|robot|Admin	3
+<13>Mar 11 07:33:29 IRB1100_4_58 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00004|-|robot|458759	4
+<13>Mar 11 07:33:41 IRB1100_4_58 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00005|-|robot|Admin	5
+<13>Mar 11 07:33:42 IRB1100_4_58 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00006|-|robot|Admin	6
+<13>Mar 11 07:38:34 IRB1100_4_58 ABB-UAL:01:Control system restarted|-|restart warmstart|5150|00007|-|robot|458759	7
+<13>Mar 11 07:38:44 IRB1100_4_58 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00008|-|robot|Admin	8
+<13>Mar 11 07:38:44 IRB1100_4_58 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00009|-|robot|Admin	9
+<13>Mar 11 07:40:51 IRB1100_4_58 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00010|-|robot|	10
+<13>Mar 11 07:40:51 IRB1100_4_58 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00011|-|robot|	11
+<13>Mar 11 07:40:51 IRB1100_4_58 ABB-UAL:01:Log-out (user logged out)|-|Socket=3112|1210|00012|-|robot|	12
+-----BEGIN DIGEST-----
+Ut+GFmttHknVxEhx/d/mKzRJKz75L4liZw6pDzWuHrTGCoVjWiIo9KtBm3rOhjY+vTmuwQ==
+-----END DIGEST-----
