@@ -251,3 +251,47 @@ Restart counter: 2
 CFG counter value: 8041
 Unfinished crit sec: 0
 
+*** PF INFO ***
+Time: Thu Mar 13 10:47:03 2025
+System: E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100
+RobotWare: 7.14.3
+RobotControl: 7.14.3
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 3
+CFG counter value: 8104
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Thu Mar 13 13:36:30 2025
+System: E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100
+RobotWare: 7.14.3
+RobotControl: 7.14.3
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 4
+CFG counter value: 8167
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Thu Mar 13 14:02:16 2025
+System: E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100
+RobotWare: 7.14.3
+RobotControl: 7.14.3
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 5
+CFG counter value: 8393
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Thu Mar 13 14:32:03 2025
+System: E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100
+RobotWare: 7.14.3
+RobotControl: 7.14.3
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 6
+CFG counter value: 8456
+Unfinished crit sec: 0
+
