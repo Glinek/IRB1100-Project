@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d34b8156-1168-4139-92a3-750f8ae178cf" height="auto" width="500">
+  <img src="https://github.com/user-attachments/assets/054a4ab5-c2c5-4779-94f4-48d00bffe84b" height="auto" width="500">
 </p>
 <p align="center">
   <img src="https://img.shields.io/github/license/Glinek/IRB1100-Project">
