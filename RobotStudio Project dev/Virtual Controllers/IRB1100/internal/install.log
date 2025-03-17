@@ -1,168 +1,181 @@
-image_system_pool_memory_restore: can't open 'E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/image.bin' for reading. [errno: 12]
+Current action is '1'!
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 725	[INFO] Current controller name 'IRB1100', current system name 'IRB1100'. 
+->
+Status 0 from VCSHELL
+
+Force I-start of the system.
+image_system_pool_memory_restore: can't open 'E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/image.bin' for reading. [errno: 12]
 Global pool was initialized.
 System pool was initialized.
 Startmode is COLD.
 Cleaned the TEMP directory.
 Load key
+WriteToElogCache: C:\a\3\s\Uas\uas.cpp 663 Error decrypting uas file. Status=-19
 No ExternalUAS configuration found
 
 Script begin: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/install.cmd
-01:00:00:063015 Status 0 from startup_log
+01:00:00:063016 Status 0 from startup_log
 Begin system installation
-01:00:00:063018 Status 0 from echo
-01:00:00:063020 Status 0 from basedefs
-C:\a\1\s\secsup_syslog\secsup_syslogImpl.cpp,411 : Digest mismatch! E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/rwsyslog-0.log, status = -1005
-01:00:00:063023 Status 0 from invoke2 s17_initialize
+01:00:00:063019 Status 0 from echo
+01:00:00:063021 Status 0 from basedefs
+C:\a\1\s\secsup_syslog\secsup_syslogImpl.cpp,242 : osal_crypt_cbc_decrypt() failed with status -1
+C:\a\1\s\secsup_syslog\secsup_syslogImpl.cpp,404 : Failed at GetDigestFromFile(): 'E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/rwsyslog-0.log', status = -1
+01:00:00:063025 Status 0 from invoke2 s17_initialize
 Goto to label: NO_AXC
-01:00:00:063026 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
-E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/TEMP has been mounted.
-01:00:00:063029 Status 0 from baseinit
-01:00:00:063031 Status 0 from uprobe_init
-01:00:00:063033 Status 0 from debug_service_base_init
-01:00:00:063035 Status 0 from invoke S33_01_create
-01:00:00:063037 Status 0 from S33_01_init
+01:00:00:063028 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/TEMP has been mounted.
+01:00:00:063031 Status 0 from baseinit
+01:00:00:063033 Status 0 from uprobe_init
+01:00:00:063035 Status 0 from debug_service_base_init
+01:00:00:063037 Status 0 from invoke S33_01_create
+01:00:00:063039 Status 0 from S33_01_init
 Goto to label: NO_AXC
-01:00:00:063040 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
-01:00:00:063042 Status 0 from invoke S98_01_create
-01:00:00:063044 Status 0 from S98_01_setup
-01:00:00:063046 Status 0 from S98_01_init
-01:00:00:063048 Status 0 from sysdmp_init
+01:00:00:063042 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+01:00:00:063044 Status 0 from invoke S98_01_create
+01:00:00:063046 Status 0 from S98_01_setup
+01:00:00:063048 Status 0 from S98_01_init
+01:00:00:063050 Status 0 from sysdmp_init
 Goto to label: VC_SKIP_SYSDMPTASK
-01:00:00:063051 Status 0 from ifvc VC_SKIP_SYSDMPTASK
-01:00:00:063053 Status 0 from debug_service_init
-01:00:00:063055 Status 0 from sysdmp_add
-01:00:00:063057 Status 0 from setstr BootBase
-01:00:00:063059 Status 0 from selectmedia $ANSWER
-01:00:00:063061 Status 0 from task 
+01:00:00:063053 Status 0 from ifvc VC_SKIP_SYSDMPTASK
+01:00:00:063055 Status 0 from debug_service_init
+01:00:00:063057 Status 0 from sysdmp_add
+01:00:00:063059 Status 0 from setstr BootBase
+01:00:00:063061 Status 0 from selectmedia $ANSWER
+01:00:00:063063 Status 0 from task 
 01:00:00:069000 Status 0 from synchronize task
 01:00:00:069002 Status 0 from go task
 01:00:00:069004 Status 0 from task 
 01:00:00:069006 Status 0 from task 
 01:00:00:069008 Status 0 from task 
+[91m
+25-03-17 11:21:04 MC0: type = ERROR id = System code = 189 (20189)
+arg 0: -2 [37m
 [94m
-25-03-12 12:51:30 MC0: type = STATE_CHANGE id = Operational code = 46 (10046)
+25-03-17 11:21:04 MC0: type = STATE_CHANGE id = Operational code = 46 (10046)
 [37m
-01:00:00:069015 Status 0 from basenew
+[91m
+25-03-17 11:21:04 MC0(robRootts): C:\a\3\s\Uas\uas.cpp 663 Error decrypting uas file. Status=-19
+[37m01:00:00:069024 Status 0 from basenew
 Base services started
-01:00:00:069018 Status 0 from echo
-01:00:00:069020 Status 0 from S98_01_new
-01:00:00:069022 Status 0 from setenv
-01:00:00:069024 Status 0 from setenv
-Goto to label: VC_PYTHON
-01:00:00:069027 Status 0 from ifvc VC_PYTHON
-01:00:00:069029 Status 0 from setenv
+01:00:00:069027 Status 0 from echo
+01:00:00:069029 Status 0 from S98_01_new
 01:00:00:069031 Status 0 from setenv
-01:00:00:069033 Status 0 from init eio
-01:00:00:069036 Status 0 from init motion
-01:00:00:069040 Status 0 from init rol
-01:00:00:069042 Status 0 from init cab
-01:00:00:069044 Status 0 from init bar
-01:00:00:069046 Status 0 from init pgmrun
-01:00:00:069048 Status 0 from init rapid
-01:00:00:069050 Status 0 from init puscfg
-01:00:00:069052 Status 0 from setEioValidationLevel
-01:00:00:069054 Status 0 from task 
-01:00:00:069056 Status 0 from task 
-01:00:00:069058 Status 0 from setvar
+01:00:00:069033 Status 0 from setenv
+Goto to label: VC_PYTHON
+01:00:00:069036 Status 0 from ifvc VC_PYTHON
+01:00:00:069038 Status 0 from setenv
+01:00:00:069040 Status 0 from setenv
+01:00:00:069042 Status 0 from init eio
+01:00:00:069045 Status 0 from init motion
+01:00:00:069049 Status 0 from init rol
+01:00:00:069051 Status 0 from init cab
+01:00:00:069053 Status 0 from init bar
+01:00:00:069055 Status 0 from init pgmrun
+01:00:00:069057 Status 0 from init rapid
+01:00:00:069059 Status 0 from init puscfg
+01:00:00:069061 Status 0 from setEioValidationLevel
+01:00:00:069063 Status 0 from task 
+01:00:00:069065 Status 0 from task 
+01:00:00:069067 Status 0 from setvar
 Installing configuration system
-01:00:00:069061 Status 0 from echo
-01:00:00:069063 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sys.cfg
-01:00:00:069065 Status 0 from invoke2 cfg_create_type_xml
-01:00:00:069067 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/eio_internal.cfg
-01:00:00:069069 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sys_eiosig.cfg
+01:00:00:069070 Status 0 from echo
+01:00:00:069072 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sys.cfg
+01:00:00:069074 Status 0 from invoke2 cfg_create_type_xml
+01:00:00:069076 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/eio_internal.cfg
+01:00:00:069078 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sys_eiosig.cfg
 Goto to label: NO_PIB_SAF
-01:00:00:069072 Status 0 from getkey pib
-01:00:00:069074 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/pgmbtn.cfg
-01:00:00:069076 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmset.cfg
-01:00:00:069078 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmove.cfg
-01:00:00:069080 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmsys.cfg
-01:00:00:069082 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlexe.cfg
-01:00:00:069084 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcom.cfg
-01:00:00:069086 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsocket.cfg
-01:00:00:069088 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlio.cfg
-01:00:00:069090 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltrap.cfg
-01:00:00:069092 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmmec.cfg
-01:00:00:069094 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsys.cfg
-01:00:00:069096 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlload.cfg
-01:00:00:069098 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmsrc.cfg
-01:00:00:069100 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltrig.cfg
-01:00:00:069102 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlpid.cfg
-01:00:00:069104 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsmod.cfg
-01:00:00:069106 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlfsta.cfg
-01:00:00:069108 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlraps.cfg
-01:00:00:069110 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmath.cfg
-01:00:00:069112 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmexe.cfg
-01:00:00:069114 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsset.cfg
-01:00:00:069116 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlstr.cfg
-01:00:00:069118 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcure.cfg
-01:00:00:069120 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlwz.cfg
-01:00:00:069122 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltool.cfg
-01:00:00:069124 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsym.cfg
-01:00:00:069126 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlbit.cfg
-01:00:00:069128 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcal.cfg
-01:00:00:069130 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcyclic.cfg
-01:00:00:069132 Status 0 from setvar
+01:00:00:069081 Status 0 from getkey pib
+01:00:00:069083 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/pgmbtn.cfg
+01:00:00:069085 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmset.cfg
+01:00:00:069087 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmove.cfg
+01:00:00:069089 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmsys.cfg
+01:00:00:069091 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlexe.cfg
+01:00:00:069093 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcom.cfg
+01:00:00:069095 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsocket.cfg
+01:00:00:069097 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlio.cfg
+01:00:00:069099 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltrap.cfg
+01:00:00:069101 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmmec.cfg
+01:00:00:069103 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsys.cfg
+01:00:00:069105 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlload.cfg
+01:00:00:069107 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmsrc.cfg
+01:00:00:069109 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltrig.cfg
+01:00:00:069111 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlpid.cfg
+01:00:00:069113 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsmod.cfg
+01:00:00:069115 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlfsta.cfg
+01:00:00:069117 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlraps.cfg
+01:00:00:069119 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmath.cfg
+01:00:00:069121 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmexe.cfg
+01:00:00:069123 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsset.cfg
+01:00:00:069125 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlstr.cfg
+01:00:00:069127 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcure.cfg
+01:00:00:069129 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlwz.cfg
+01:00:00:069131 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltool.cfg
+01:00:00:069133 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlsym.cfg
+01:00:00:069135 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlbit.cfg
+01:00:00:069137 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcal.cfg
+01:00:00:069139 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcyclic.cfg
+01:00:00:069141 Status 0 from setvar
 Goto to label: NO_PAINT_CNV
-01:00:00:069135 Status 0 from getkey paintMedia
-01:00:00:069137 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcnv.cfg
+01:00:00:069144 Status 0 from getkey paintMedia
+01:00:00:069146 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcnv.cfg
 Goto to label: NEXT_STEP
-01:00:00:069140 Status 0 from goto NEXT_STEP
-01:00:00:069142 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlind.cfg
-01:00:00:069144 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcorr.cfg
-01:00:00:069146 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlopr.cfg
-01:00:00:069148 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rldata.cfg
-01:00:00:069150 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmq.cfg
-01:00:00:069152 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltrigios.cfg
-01:00:00:069154 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/mockit1.cfg
-01:00:00:069156 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/calwrist.cfg
-01:00:00:069158 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/usrmmc.cfg
-01:00:00:069160 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/usrmmc_mc.cfg
-01:00:00:069162 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/bat_shutdownmmc.cfg
-01:00:00:069164 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlbasic.cfg
-01:00:00:069166 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/calwrist_sys.cfg
-01:00:00:069168 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/bat_shutdownsys.cfg
+01:00:00:069149 Status 0 from goto NEXT_STEP
+01:00:00:069151 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlind.cfg
+01:00:00:069153 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlcorr.cfg
+01:00:00:069155 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlopr.cfg
+01:00:00:069157 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rldata.cfg
+01:00:00:069159 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlmq.cfg
+01:00:00:069161 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rltrigios.cfg
+01:00:00:069163 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/mockit1.cfg
+01:00:00:069165 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/calwrist.cfg
+01:00:00:069167 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/usrmmc.cfg
+01:00:00:069169 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/usrmmc_mc.cfg
+01:00:00:069171 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/bat_shutdownmmc.cfg
+01:00:00:069173 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/rlbasic.cfg
+01:00:00:069175 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/calwrist_sys.cfg
+01:00:00:069177 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/bat_shutdownsys.cfg
 Goto to label: CHECK_SAFEMOVEBASIC
-01:00:00:069171 Status 0 from is_option_present SAFEMOVEPRO
+01:00:00:069180 Status 0 from is_option_present SAFEMOVEPRO
 Goto to label: NO_SAFEMOVE
-01:00:00:069174 Status 0 from is_option_present SAFEMOVEBASIC
-01:00:00:069176 Status 0 from if_feature_present abb.robotics.robots.robots.irb14050.0_5-0_5
-01:00:00:069178 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/BC_MMC.cfg
+01:00:00:069183 Status 0 from is_option_present SAFEMOVEBASIC
+01:00:00:069185 Status 0 from if_feature_present abb.robotics.robots.robots.irb14050.0_5-0_5
+01:00:00:069187 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/BC_MMC.cfg
 
 Script begin: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/fctrqsens/install.cmd
 Goto to label: NO_FCTRQSENS
-01:00:00:069182 Status 0 from is_option_present FCTRQSENS
+01:00:00:069191 Status 0 from is_option_present FCTRQSENS
 Script end: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/fctrqsens/install.cmd
-01:00:00:069185 Status 0 from include C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/fctrqsens/install.cmd
-01:00:00:069187 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/linked_m_sup_base.cfg
-01:00:00:069189 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/usrsys.cfg
-01:00:00:069191 Status 0 from invoke2 cfg_create_type_xml
-01:00:00:069193 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sio_net_nondeletable.cfg
-01:00:00:069195 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sio_net_internal.cfg
-01:00:00:069197 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sio_net.cfg
-01:00:00:079000 Status 0 from invoke2 cfg_create_type_xml
-01:00:00:079002 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sys_fan_control.cfg
+01:00:00:079000 Status 0 from include C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/fctrqsens/install.cmd
+01:00:00:079002 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/linked_m_sup_base.cfg
+01:00:00:079004 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/usrsys.cfg
+01:00:00:079006 Status 0 from invoke2 cfg_create_type_xml
+01:00:00:079008 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sio_net_nondeletable.cfg
+01:00:00:079010 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sio_net_internal.cfg
+01:00:00:079012 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sio_net.cfg
+01:00:00:079014 Status 0 from invoke2 cfg_create_type_xml
+01:00:00:079016 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/sys_fan_control.cfg
 01:00:00:085000 Status 0 from synchronize task
 01:00:00:085002 Status 0 from go task
 Installing system files
 01:00:00:085005 Status 0 from echo
 Goto to label: NEXT_STEP
-01:00:00:085008 Status 0 from direxist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC
+01:00:00:085008 Status 0 from direxist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC
 Goto to label: CLEANUP_0
-01:00:00:085011 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/opt_l0.cmd
-01:00:00:085013 Status 0 from delete E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/opt_l0.cmd
-01:00:00:085015 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/option.cmd
+01:00:00:085011 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l0.cmd
+01:00:00:085013 Status 0 from delete E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l0.cmd
+01:00:00:085015 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/option.cmd
 Goto to label: NEXT_STEP
 01:00:00:085018 Status 0 from goto NEXT_STEP
-01:00:00:085020 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/opt_l1.cmd
+01:00:00:085020 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l1.cmd
 Goto to label: NEXT_STEP
 01:00:00:085023 Status 0 from goto NEXT_STEP
-01:00:00:085025 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/opt_l2.cmd
+01:00:00:085025 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l2.cmd
 Goto to label: NEXT_STEP
 01:00:00:085028 Status 0 from goto NEXT_STEP
-01:00:00:085030 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/opt_l3.cmd
+01:00:00:085030 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l3.cmd
 Goto to label: NEXT_STEP
 01:00:00:085033 Status 0 from goto NEXT_STEP
-01:00:00:085035 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/upgrade_opt.cmd
+01:00:00:085035 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/upgrade_opt.cmd
 Goto to label: NEXT_STEP
 01:00:00:085038 Status 0 from goto NEXT_STEP
 01:00:00:085040 Status 0 from register 
@@ -176,7 +189,7 @@ Goto to label: NEXT_STEP
 01:00:00:085056 Status 0 from register 
 01:00:00:085058 Status 0 from register 
 01:00:00:085060 Status 0 from register 
-01:00:00:085062 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/HOME/rapid_edit_rules.xml
+01:00:00:085062 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/HOME/rapid_edit_rules.xml
 Goto to label: NEXT_STEP
 01:00:00:085065 Status 0 from goto NEXT_STEP
 01:00:00:085067 Status 0 from setstr Rules
@@ -922,7 +935,7 @@ Goto to label: LOAD_CMD
 01:00:00:155015 Status 0 from fileexist C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/instdrv.cmd
 
 Script begin: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/instdrv.cmd
-01:00:00:155018 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/DATA/EXT_DRV.cfg
+01:00:00:155018 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/DATA/EXT_DRV.cfg
 Goto to label: DRV_INSTALL
 01:00:00:155021 Status 0 from goto DRV_INSTALL
 01:00:00:155023 Status 0 from getkey Drive1
@@ -982,7 +995,7 @@ Goto to label: LOAD_CMD
 01:00:00:155110 Status 0 from fileexist C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/instirb.cmd
 
 Script begin: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/instirb.cmd
-01:00:00:155113 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/DATA/EXT_MOC.cfg
+01:00:00:155113 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/DATA/EXT_MOC.cfg
 Goto to label: IRB_INSTALL
 01:00:00:155116 Status 0 from goto IRB_INSTALL
 01:00:00:155118 Status 0 from setvar
@@ -1015,10 +1028,10 @@ Script begin: C:/Users/szymo/AppData/Local/ABB/RobotWare/Robots_1.14.0/robots/ir
 IRB 1100 family
 01:00:00:155164 Status 0 from print
 Goto to label: CLEANSC
-01:00:00:165000 Status 0 from direxist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC
+01:00:00:165000 Status 0 from direxist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC
 Goto to label: CLEANSC1
-01:00:00:165003 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/SC_ROB_1.xml
-01:00:00:165005 Status 0 from delete E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/SC_ROB_1.xml
+01:00:00:165003 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/SC_ROB_1.xml
+01:00:00:165005 Status 0 from delete E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/SC_ROB_1.xml
 01:00:00:165007 Status 0 from setvar
 01:00:00:165009 Status 0 from getkey Irb1Desc
 Installing IRB 1100-4/0.58
@@ -1167,19 +1180,19 @@ Script begin: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/opt
 Installing Safety Controller
 01:00:00:175069 Status 0 from echo
 01:00:00:175071 Status 0 from setenv
-01:00:00:175073 Status 0 from mkdir E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/SCDMP
+01:00:00:175073 Status 0 from mkdir E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/SCDMP
 Goto to label: ADD_VC_DIR
 01:00:00:175076 Status 0 from ifvc ADD_VC_DIR
-01:00:00:175078 Status 0 from mkdir E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/SC_DISK
+01:00:00:175078 Status 0 from mkdir E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/SC_DISK
 01:00:00:175080 Status 0 from copy C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/options/sc/scimageversion
 Goto to label: NEXT_STEP
-01:00:00:175083 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_1.XML
+01:00:00:175083 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_1.XML
 Goto to label: NEXT_STEP
-01:00:00:175086 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_2.XML
+01:00:00:175086 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_2.XML
 Goto to label: NEXT_STEP
-01:00:00:175089 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_3.XML
+01:00:00:175089 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_3.XML
 Goto to label: NEXT_STEP
-01:00:00:175092 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_4.XML
+01:00:00:175092 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/SC_ROB_4.XML
 01:00:00:175094 Status 0 from config C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/options/sc/BAR_SYS_1.cfg
 Goto to label: INSTALL_SCINC_FILE
 01:00:00:175097 Status 0 from fileexist C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/options/sc/install_scinc.cmd
@@ -1213,13 +1226,13 @@ Script end: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/optio
 01:00:00:175138 Status 0 from include ...done
 01:00:00:175140 Status 0 from invoke2 scorch_config_reset_cfg
 Goto to label: NEXT_STEP
-01:00:00:175143 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_cfg.xml
-01:00:00:175145 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_cfg_list.xml
+01:00:00:175143 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_cfg.xml
+01:00:00:175145 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_cfg_list.xml
 Goto to label: NEXT_STEP
 01:00:00:175148 Status 0 from goto NEXT_STEP
 Goto to label: NEXT_STEP
-01:00:00:175151 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_eio.cfg
-01:00:00:175153 Status 0 from config E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_eio.cfg
+01:00:00:175151 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_eio.cfg
+01:00:00:175153 Status 0 from config E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/sc/sc_eio.cfg
 01:00:00:175155 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.m28.04
 Goto to label: HW_M28_LEGACY
 01:00:00:175158 Status 0 from goto HW_M28_LEGACY
@@ -1896,12 +1909,12 @@ Goto to label: LOAD_CMD
 01:00:00:235149 Status 0 from fileexist C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/instirbopt.cmd
 
 Script begin: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/instirbopt.cmd
-01:00:00:235152 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/DATA/EXT_MOC.cfg
+01:00:00:235152 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/DATA/EXT_MOC.cfg
 Goto to label: END_LABEL
 01:00:00:245000 Status 0 from goto END_LABEL
 Script end: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/instirbopt.cmd
 01:00:00:245003 Status 0 from include END_LABEL
-01:00:00:245005 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/sc_cfg_list.xml
+01:00:00:245005 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/OPTIONS/SC/sc_cfg_list.xml
 Goto to label: SKIP_SC_CFG_LIST
 01:00:00:245008 Status 0 from goto SKIP_SC_CFG_LIST
 Global permanent pool for DriveServoControl not available. Allocating...
@@ -1911,7 +1924,7 @@ moc_startup_done is false 500
 01:00:01:245000 Status 0 from new rapid
 01:00:01:245002 Status 0 from new cab
 01:00:01:245004 Status 0 from invoke2 eio_system_set_cfg_output_format
-01:00:01:245006 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/SmartComponent dev/Virtual Controllers/IRB1100/internal/sio_cfg_save.cfg
+01:00:01:245006 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/sio_cfg_save.cfg
 Goto to label: NEXT_ERASE_STEP
 01:00:01:245009 Status 0 from goto NEXT_ERASE_STEP
 01:00:01:245011 Status 0 from setEioValidationLevel

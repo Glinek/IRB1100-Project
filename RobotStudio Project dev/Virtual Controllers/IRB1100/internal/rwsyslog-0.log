@@ -183,6 +183,24 @@
 <13>Mar 13 14:32:02 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00183|-|robot|	183
 <13>Mar 13 14:32:02 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00184|-|robot|	184
 <13>Mar 13 14:32:02 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=3264|1210|00185|-|robot|	185
+<9>Mar 17 11:21:10 IRB1100 ABB-UAL:01:Log data hash check failed (Log data altered)|-|error read from syslog.log|3220|00186|-|robot|syslog	186
+<13>Mar 17 11:21:20 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00187|-|robot|Default User	187
+<13>Mar 17 11:21:20 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00188|-|robot|Default User	188
+<13>Mar 17 11:21:21 IRB1100 ABB-UAL:01:Configuration upload|-|Start restore|1331|00189|-|robot|458759	189
+<13>Mar 17 11:21:22 IRB1100 ABB-UAL:01:Configuration upload|-|Start restore|1331|00190|-|robot|458759	190
+<13>Mar 17 11:21:23 IRB1100 ABB-UAL:01:Configuration upload|-|Start restore|1331|00191|-|robot|458759	191
+<13>Mar 17 11:21:23 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00192|-|robot|	192
+<13>Mar 17 11:21:23 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00193|-|robot|	193
+<13>Mar 17 11:21:23 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=652|1210|00194|-|robot|	194
+<13>Mar 17 11:21:29 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00195|-|robot|Admin	195
+<13>Mar 17 11:21:29 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00196|-|robot|Admin	196
+<13>Mar 17 11:21:43 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=589833|1110|00197|-|robot|Default User	197
+<13>Mar 17 11:21:43 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=655370|1110|00198|-|robot|Default User	198
+<13>Mar 17 11:22:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=655370|1210|00199|-|robot|	199
+<13>Mar 17 11:22:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=3336|1210|00200|-|robot|	200
+<13>Mar 17 11:22:15 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00201|-|robot|	201
+<13>Mar 17 11:22:15 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00202|-|robot|	202
+<13>Mar 17 11:22:15 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=652|1210|00203|-|robot|	203
 -----BEGIN DIGEST-----
-1IKhqNT/lvRpaimDy18ytMF1Br6FFxROggi3UnftYtJR2TAgbmZgV5cOtQD6U3yR+sZkPA==
+jlSRMQvlQBj37Ae0GPOmUJZE6YimYD92oygZB2p4yY/SNne2kEHeEMOnzoqgPmmgVy+TKA==
 -----END DIGEST-----
