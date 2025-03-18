@@ -35,7 +35,7 @@ EIO.cfg
 
 
 >>TASK1: (T_ROB1,,)
-PROGMOD/Module1.modx @ 
+PROGMOD/MainModule.modx @ 
 
 
 >>EOF:

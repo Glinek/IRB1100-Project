@@ -201,6 +201,27 @@
 <13>Mar 17 11:22:15 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00201|-|robot|	201
 <13>Mar 17 11:22:15 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00202|-|robot|	202
 <13>Mar 17 11:22:15 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=652|1210|00203|-|robot|	203
+<13>Mar 18 07:35:03 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00204|-|robot|Admin	204
+<13>Mar 18 07:35:03 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00205|-|robot|Admin	205
+<13>Mar 18 07:46:00 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=589833|1110|00206|-|robot|Default User	206
+<13>Mar 18 07:46:00 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=655370|1110|00207|-|robot|Default User	207
+<13>Mar 18 07:46:21 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=655370|1210|00208|-|robot|	208
+<13>Mar 18 07:46:21 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=3272|1210|00209|-|robot|	209
+<13>Mar 18 07:52:03 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=589833|1210|00210|-|robot|	210
+<13>Mar 18 07:58:20 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=720905|1110|00211|-|robot|Default User	211
+<13>Mar 18 07:58:20 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=786442|1110|00212|-|robot|Default User	212
+<13>Mar 18 07:59:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=786442|1210|00213|-|robot|	213
+<13>Mar 18 07:59:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=3332|1210|00214|-|robot|	214
+<13>Mar 18 08:04:03 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=720905|1210|00215|-|robot|	215
+<13>Mar 18 08:04:39 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=851977|1110|00216|-|robot|Default User	216
+<13>Mar 18 08:14:13 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00217|-|robot|	217
+<13>Mar 18 08:14:13 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00218|-|robot|	218
+<13>Mar 18 08:14:13 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=652|1210|00219|-|robot|	219
+<13>Mar 18 08:16:05 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00220|-|robot|Admin	220
+<13>Mar 18 08:16:05 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00221|-|robot|Admin	221
+<13>Mar 18 08:18:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00222|-|robot|	222
+<13>Mar 18 08:18:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00223|-|robot|	223
+<13>Mar 18 08:18:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=652|1210|00224|-|robot|	224
 -----BEGIN DIGEST-----
-jlSRMQvlQBj37Ae0GPOmUJZE6YimYD92oygZB2p4yY/SNne2kEHeEMOnzoqgPmmgVy+TKA==
+aAaLQsv3Rxep2GoppPzKtzBoJXY63ib+Vs5QGHvA1fYRlNVCfTW1SivDfxNQQCwaUH0o/w==
 -----END DIGEST-----
