@@ -50,4 +50,18 @@ C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 2037	[INFO] ResetAddInData status =0.
 C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
 C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File G:/PjSB5 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
 C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+<<<<<<< HEAD
 C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File G:/PjSB5 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+=======
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+>>>>>>> b6aa378cd7994ea44342503c3821210c603ecf56

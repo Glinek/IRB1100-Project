@@ -79,7 +79,11 @@ Goto to label: NO_ETHCAP
 Goto to label: VC_NO_CLOCK_PROBE
 01:00:00:024011 Status 0 from ifvc VC_NO_CLOCK_PROBE
 [94m
+<<<<<<< HEAD
 25-03-24 10:14:09 MC0: type = STATE_CHANGE id = Operational code = 45 (10045)
+=======
+25-03-25 10:41:21 MC0: type = STATE_CHANGE id = Operational code = 45 (10045)
+>>>>>>> b6aa378cd7994ea44342503c3821210c603ecf56
 [37m
 01:00:00:024018 Status 0 from basenew
 Base services started
@@ -165,6 +169,7 @@ Initializing system interrupts
 01:00:00:024159 Status 0 from invoke sdlog_init
 01:00:00:024161 Status 0 from task 
 Goto to label: VC_CABSUPTS_SKIP
+<<<<<<< HEAD
 01:00:00:024164 Status 0 from ifvc VC_CABSUPTS_SKIP
 01:00:00:024167 Status 0 from invoke2 sevt_safety_init
 01:00:00:024169 Status 0 from invoke2 scsafIntBusInit
@@ -254,6 +259,97 @@ Goto to label: NEXT_STEP
 01:00:26:621020 Status 0 from goto NEXT_STEP
 Starting motion system
 01:00:26:621023 Status 0 from echo
+=======
+01:00:00:069164 Status 0 from ifvc VC_CABSUPTS_SKIP
+01:00:00:069167 Status 0 from invoke2 sevt_safety_init
+01:00:00:069169 Status 0 from invoke2 scsafIntBusInit
+01:00:00:069171 Status 0 from sysdmp_add
+01:00:00:069173 Status 0 from sysdmp_add
+01:00:00:069175 Status 0 from invoke2 epanel_device_init
+01:00:00:069177 Status 0 from invoke2 axc_brd_create_IntBusDrvSys
+01:00:00:069179 Status 0 from task 
+01:00:00:069181 Status 0 from task 
+01:00:00:069183 Status 0 from task 
+01:00:00:069185 Status 0 from task 
+01:00:00:213000 Status 0 from reconfigure eio
+Starting Safety Controller orchestrator
+01:00:00:213003 Status 0 from echo
+01:00:00:213005 Status 0 from task 
+  Cpu1 in state ready
+01:00:23:380000 Status 0 from invoke2 scorch_wait_for_early_setup_done
+01:00:23:380002 Status 0 from task 
+01:00:23:380004 Status 0 from task 
+01:00:23:380006 Status 0 from task 
+01:00:23:380008 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.m28.04
+01:00:23:380010 Status 0 from task 
+01:00:23:380012 Status 0 from task 
+01:00:23:380014 Status 0 from task 
+01:00:23:380016 Status 0 from task 
+01:00:23:380018 Status 0 from task 
+01:00:23:380020 Status 0 from task 
+01:00:23:380022 Status 0 from task 
+01:00:23:380024 Status 0 from task 
+01:00:23:380026 Status 0 from task 
+01:00:23:380028 Status 0 from task 
+01:00:23:380030 Status 0 from task 
+01:00:23:380032 Status 0 from task 
+01:00:23:380034 Status 0 from task 
+01:00:23:380036 Status 0 from task 
+Goto to label: FOUR_CORESEND
+01:00:23:380039 Status 0 from goto FOUR_CORESEND
+01:00:23:380041 Status 0 from task 
+01:00:23:380043 Status 0 from task 
+01:00:23:380045 Status 0 from task 
+01:00:23:380047 Status 0 from task 
+01:00:23:380049 Status 0 from task 
+01:00:23:380051 Status 0 from task 
+01:00:23:380053 Status 0 from task 
+01:00:23:380055 Status 0 from task 
+01:00:23:380057 Status 0 from task 
+01:00:23:380059 Status 0 from task 
+01:00:23:380066 Status 0 from task 
+01:00:23:380068 Status 0 from task 
+01:00:23:380070 Status 0 from task 
+01:00:23:380072 Status 0 from task 
+01:00:23:380074 Status 0 from task 
+01:00:23:380076 Status 0 from task 
+01:00:23:380078 Status 0 from task 
+Goto to label: NEXT_STEP
+01:00:23:380081 Status 0 from goto NEXT_STEP
+01:00:23:380083 Status 0 from task 
+01:00:23:380085 Status 0 from task 
+01:00:23:380087 Status 0 from task 
+01:00:23:380089 Status 0 from task 
+01:00:23:380091 Status 0 from task 
+01:00:23:380093 Status 0 from task 
+01:00:23:380095 Status 0 from task 
+01:00:23:380097 Status 0 from task 
+01:00:23:380099 Status 0 from task 
+01:00:23:380102 Status 0 from task 
+01:00:23:380105 Status 0 from task 
+01:00:23:380108 Status 0 from task 
+01:00:23:380111 Status 0 from task 
+01:00:23:380114 Status 0 from task 
+01:00:23:380116 Status 0 from task 
+01:00:23:380119 Status 0 from task 
+01:00:23:380121 Status 0 from task 
+01:00:23:380123 Status 0 from task 
+01:00:23:380125 Status 0 from task 
+Waiting for task group 1 to start
+01:00:23:380128 Status 0 from print
+01:00:23:386000 Status 0 from synchronize task
+01:00:23:886000 Status 0 from delay
+Rapi-Subscription running on slot: 204
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:23:886012 Status 0 from go task
+Starting features - phase 2 of 5
+01:00:23:886015 Status 0 from echo
+01:00:23:886017 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/option.cmd
+Goto to label: NEXT_STEP
+01:00:23:886020 Status 0 from goto NEXT_STEP
+Starting motion system
+01:00:23:886023 Status 0 from echo
+>>>>>>> b6aa378cd7994ea44342503c3821210c603ecf56
 Message (cmd/msgType: 299/3) received from sid: 0
 DriveLogService reports "Not supported" for unit /Device_1
 Task ENIPSafetyRecvTask is about to terminate but is registered in Virtual Time. The task will remain in sleeping state
@@ -264,6 +360,7 @@ STATMATS. New motion_planner: motion_planner_4
 STATMATS. New motion_planner: motion_planner_5
 STATMATS. New motion_planner: motion_planner_6
 STATMATS. New motion_planner: motion_planner_7
+<<<<<<< HEAD
 01:00:39:294001 Status 0 from new motion
 SISMA_BS_INFO 41152
 01:00:40:794001 Status 0 from delay
@@ -290,10 +387,39 @@ Starting RAPID system
 01:00:40:800063 Status 0 from invoke rlcyclic_start
 01:00:40:800068 Status 0 from invoke rlvisualize_start
 01:00:40:800070 Status 0 from invoke rldata_init
+=======
+01:00:36:559001 Status 0 from new motion
+SISMA_BS_INFO 41152
+01:00:38:059001 Status 0 from delay
+01:00:38:059003 Status 0 from connect_dependings SYS_STORED_OBJ_CAB
+01:00:38:059005 Status 0 from if SYNCROB
+Goto to label: NOSYNC
+01:00:38:059008 Status 0 from goto NOSYNC
+Waiting for motion system to start
+01:00:38:059011 Status 0 from echo
+01:00:38:065001 Status 0 from synchronize task
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:38:065020 Status 0 from go task
+Synchronizing industrial networks
+01:00:38:065023 Status 0 from echo
+01:00:38:065040 Status 0 from io_synchronize
+Goto to label: VIRTIOTS_RUN
+01:00:38:065043 Status 0 from ifvc VIRTIOTS_RUN
+01:00:38:065045 Status 0 from task 
+Starting RAPID system
+01:00:38:065048 Status 0 from echo
+01:00:38:065058 Status 0 from invoke rldryrun_start
+01:00:38:065063 Status 0 from invoke rlcyclic_start
+01:00:38:065068 Status 0 from invoke rlvisualize_start
+01:00:38:065070 Status 0 from invoke rldata_init
+>>>>>>> b6aa378cd7994ea44342503c3821210c603ecf56
 ------------number_of_tasks 1 
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
+<<<<<<< HEAD
 01:00:40:875008 Status 0 from new rapid
 Starting features - phase 3 of 5
 01:00:40:875011 Status 0 from echo
@@ -350,10 +476,69 @@ arg 2: T_ROB1
 01:00:45:310001 Status 0 from synchronize task
 01:00:45:310003 Status 0 from rapid_startup_ready
 01:00:45:310005 Status 0 from cab_startup_ready
+=======
+01:00:38:140008 Status 0 from new rapid
+Starting features - phase 3 of 5
+01:00:38:140011 Status 0 from echo
+01:00:38:140013 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l1.cmd
+Goto to label: NEXT_STEP
+01:00:38:140016 Status 0 from goto NEXT_STEP
+[94m
+25-03-25 10:41:22 MC0: type = STATE_CHANGE id = Operational code = 10 (10010)
+[37m
+[94m
+25-03-25 10:41:22 MC0: type = STATE_CHANGE id = Operational code = 17 (10017)
+[37m
+01:00:42:569056 Status 0 from new cab
+Starting communication services
+01:00:42:569059 Status 0 from echo
+01:00:42:569061 Status 0 from invoke2 set_max_allowed_robapi_wan_connections
+01:00:42:569063 Status 0 from task 
+01:00:42:569065 Status 0 from task 
+01:00:42:569067 Status 0 from task 
+01:00:42:569069 Status 0 from task 
+01:00:42:569071 Status 0 from task 
+01:00:42:569073 Status 0 from task 
+01:00:42:569075 Status 0 from task 
+01:00:42:569077 Status 0 from task 
+01:00:42:569079 Status 0 from task 
+01:00:42:569081 Status 0 from task 
+01:00:42:569083 Status 0 from task 
+01:00:42:569085 Status 0 from task 
+Task OPCUABSEntryFunc is about to terminate but is registered in Virtual Time. The task will remain in sleeping state
+01:00:42:569088 Status 0 from task 
+Task OPCUACSEntryFunc is about to terminate but is registered in Virtual Time. The task will remain in sleeping state
+01:00:42:569091 Status 0 from task 
+01:00:42:569093 Status 0 from task 
+Starting features - phase 4 of 5
+01:00:42:569096 Status 0 from echo
+01:00:42:569098 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l2.cmd
+Goto to label: NEXT_STEP
+01:00:42:569101 Status 0 from goto NEXT_STEP
+01:00:42:569103 Status 0 from task 
+Goto to label: NETSCANSKIP
+01:00:42:569106 Status 0 from ifvc NETSCANSKIP
+Finalizing RAPID system
+01:00:42:569109 Status 0 from echo
+[94m
+25-03-25 10:41:22 MC0: type = STATE_CHANGE id = Operational code = 155 (10155)
+arg 0: 1 
+arg 1: T_ROB1
+[37m
+[94m
+25-03-25 10:41:22 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+arg 0: 1 
+arg 1: T_ROB1
+[37m
+01:00:42:575001 Status 0 from synchronize task
+01:00:42:575003 Status 0 from rapid_startup_ready
+01:00:42:575005 Status 0 from cab_startup_ready
+>>>>>>> b6aa378cd7994ea44342503c3821210c603ecf56
 Task OPCUAEntryFunc is about to terminate but is registered in Virtual Time. The task will remain in sleeping state
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
+<<<<<<< HEAD
 01:00:45:310023 Status 0 from go task
 Goto to label: VTSPEED
 01:00:45:310026 Status 0 from ifvc VTSPEED
@@ -472,4 +657,124 @@ Goto to label: NO_POST_ACTION
 01:00:45:320038 Status 0 from goto NO_POST_ACTION
 Script end: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/startup_no_axc.cmd
 01:00:45:320041 Status 0 from include NO_POST_ACTION
+=======
+01:00:42:575025 Status 0 from go task
+Goto to label: VTSPEED
+01:00:42:575028 Status 0 from ifvc VTSPEED
+01:00:42:575030 Status 0 from invoke VTSetSpeed
+Starting features - phase 5 of 5
+01:00:42:575033 Status 0 from echo
+01:00:42:575035 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/opt_l3.cmd
+Goto to label: NEXT_STEP
+01:00:42:575038 Status 0 from goto NEXT_STEP
+01:00:42:575040 Status 0 from upgrade_warm_start_completed
+01:00:42:575042 Status 0 from unofficial_rw_notification
+01:00:42:575044 Status 0 from sysdmp_add
+01:00:42:575046 Status 0 from sysdmp_add
+01:00:42:575048 Status 0 from sysdmp_add
+01:00:42:575050 Status 0 from sysdmp_add
+01:00:42:575052 Status 0 from sysdmp_add
+01:00:42:575054 Status 0 from sysdmp_add
+01:00:42:575056 Status 0 from sysdmp_add
+01:00:42:575058 Status 0 from sysdmp_add
+01:00:42:575060 Status 0 from sysdmp_add
+01:00:42:575062 Status 0 from sysdmp_add
+01:00:42:575064 Status 0 from sysdmp_add
+01:00:42:575066 Status 0 from sysdmp_add
+01:00:42:575068 Status 0 from sysdmp_add
+01:00:42:575070 Status 0 from sysdmp_add
+01:00:42:575072 Status 0 from sysdmp_add
+01:00:42:575074 Status 0 from sysdmp_add
+01:00:42:575076 Status 0 from sysdmp_add
+01:00:42:575078 Status 0 from sysdmp_add
+01:00:42:575080 Status 0 from sysdmp_add
+01:00:42:575082 Status 0 from sysdmp_add
+01:00:42:575084 Status 0 from sysdmp_add
+01:00:42:575086 Status 0 from sysdmp_add
+01:00:42:575088 Status 0 from sysdmp_add
+01:00:42:575090 Status 0 from sysdmp_add
+01:00:42:575092 Status 0 from sysdmp_add
+01:00:42:575094 Status 0 from sysdmp_add
+01:00:42:575096 Status 0 from sysdmp_add
+Goto to label: NO_TRACEMEMLEAK
+01:00:42:575099 Status 0 from ifvc NO_TRACEMEMLEAK
+01:00:42:575101 Status 0 from sysdmp_add
+01:00:42:575103 Status 0 from sysdmp_add
+Goto to label: NO_SEP_DIAG
+01:00:42:575106 Status 0 from ifvc NO_SEP_DIAG
+01:00:42:575108 Status 0 from sysdmp_add
+01:00:42:575110 Status 0 from sysdmp_add
+01:00:42:575112 Status 0 from sysdmp_add
+Goto to label: NO_CHKDSK
+01:00:42:575115 Status 0 from ifvc NO_CHKDSK
+01:00:42:575117 Status 0 from sysdmp_add
+01:00:42:575119 Status 0 from sysdmp_add
+01:00:42:575121 Status 0 from sysdmp_add
+01:00:42:575123 Status 0 from sysdmp_add
+01:00:42:575125 Status 0 from sysdmp_add
+Goto to label: NEXT_STEP
+01:00:42:575128 Status 0 from goto NEXT_STEP
+01:00:42:575130 Status 0 from sysdmp_add
+01:00:42:575132 Status 0 from sysdmp_trigger_add
+01:00:42:575134 Status 0 from sysdmp_trigger_add
+01:00:42:575136 Status 0 from sysdmp_trigger_add
+01:00:42:575138 Status 0 from sysdmp_trigger_add
+01:00:42:575140 Status 0 from sysdmp_trigger_add
+01:00:42:575142 Status 0 from sysdmp_trigger_add
+01:00:42:575144 Status 0 from sysdmp_trigger_add
+01:00:42:575146 Status 0 from sysdmp_trigger_add
+01:00:42:575148 Status 0 from sysdmp_trigger_add
+01:00:42:575150 Status 0 from sysdmp_trigger_add
+01:00:42:575152 Status 0 from sysdmp_trigger_add
+01:00:42:575154 Status 0 from sysdmp_trigger_add
+01:00:42:575156 Status 0 from sysdmp_add_logfile
+01:00:42:575158 Status 0 from sysdmp_add_logfile
+01:00:42:575160 Status 0 from sysdmp_add_logfile
+01:00:42:575162 Status 0 from sysdmp_add_logfile
+01:00:42:575164 Status 0 from sysdmp_add_logfile
+01:00:42:575166 Status 0 from sysdmp_add_logfile
+01:00:42:575168 Status 0 from sysdmp_add_logfile
+01:00:42:575170 Status 0 from sysdmp_add_logfile
+01:00:42:575172 Status 0 from sysdmp_add_logfile
+01:00:42:575174 Status 0 from sysdmp_add_logfile
+01:00:42:575176 Status 0 from sysdmp_add_logfile
+01:00:42:575178 Status 0 from sysdmp_add_logfile
+01:00:42:575180 Status 0 from sysdmp_add_logfile
+01:00:42:575182 Status 0 from sysdmp_add_logfile
+01:00:42:575184 Status 0 from sysdmp_add_logfile
+01:00:42:575186 Status 0 from sysdmp_add_logfile
+01:00:42:575188 Status 0 from sysdmp_add_logfile
+01:00:42:575190 Status 0 from sysdmp_add_logfile
+01:00:42:575192 Status 0 from sysdmp_add_logfile
+01:00:42:575194 Status 0 from sysdmp_add_logfile
+01:00:42:575196 Status 0 from sysdmp_add_logfile
+01:00:42:575198 Status 0 from sysdmp_add_logfile
+01:00:42:575200 Status 0 from sysdmp_add_logfile
+01:00:42:575202 Status 0 from sysdmp_add_logfile
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+01:00:42:575204 Status 0 from sysdmp_add_logfile
+01:00:42:585001 Status 0 from sysdmp_add_logfile
+01:00:42:585003 Status 0 from sysdmp_add_logfile
+01:00:42:585005 Status 0 from sysdmp_add_logfile
+01:00:42:585007 Status 0 from sysdmp_add_logfile
+01:00:42:585009 Status 0 from sysdmp_add
+01:00:42:585011 Status 0 from sysdmp_add
+Goto to label: VC_CS_SHOW_SKIP
+01:00:42:585014 Status 0 from ifvc VC_CS_SHOW_SKIP
+01:00:42:585016 Status 0 from invoke fpevent_init
+01:00:42:585019 Status 0 from invoke fpcmd_init
+01:00:42:585022 Status 0 from invoke fpconsole_init
+01:00:42:585026 Status 0 from invoke fpdbg_init
+01:00:42:585028 Status 0 from invoke fpdevices_init
+01:00:42:585030 Status 0 from systemrun
+System started
+01:00:42:585033 Status 0 from echo
+01:00:42:585035 Status 0 from fileexist E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/post_startup_action.cmd
+Goto to label: NO_POST_ACTION
+01:00:42:585038 Status 0 from goto NO_POST_ACTION
+Script end: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/startup_no_axc.cmd
+01:00:42:585041 Status 0 from include NO_POST_ACTION
+>>>>>>> b6aa378cd7994ea44342503c3821210c603ecf56
 Script end: C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/system/startup.cmd
