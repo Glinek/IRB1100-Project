@@ -222,6 +222,21 @@
 <13>Mar 18 08:18:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00222|-|robot|	222
 <13>Mar 18 08:18:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00223|-|robot|	223
 <13>Mar 18 08:18:08 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=652|1210|00224|-|robot|	224
+<13>Mar 25 08:27:41 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00225|-|robot|Admin	225
+<13>Mar 25 08:27:41 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00226|-|robot|Admin	226
+<13>Mar 25 08:27:44 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00227|-|robot|	227
+<13>Mar 25 08:27:44 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00228|-|robot|	228
+<13>Mar 25 08:27:44 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=652|1210|00229|-|robot|	229
+<13>Mar 25 09:26:09 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00230|-|robot|Admin	230
+<13>Mar 25 09:26:09 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00231|-|robot|Admin	231
+<13>Mar 25 09:48:17 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00232|-|robot|	232
+<13>Mar 25 09:48:17 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00233|-|robot|	233
+<13>Mar 25 09:48:17 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=848|1210|00234|-|robot|	234
+<13>Mar 25 10:41:24 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00235|-|robot|Admin	235
+<13>Mar 25 10:41:24 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00236|-|robot|Admin	236
+<13>Mar 25 12:47:39 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00237|-|robot|	237
+<13>Mar 25 12:47:39 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00238|-|robot|	238
+<13>Mar 25 12:47:39 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=848|1210|00239|-|robot|	239
 -----BEGIN DIGEST-----
-aAaLQsv3Rxep2GoppPzKtzBoJXY63ib+Vs5QGHvA1fYRlNVCfTW1SivDfxNQQCwaUH0o/w==
+Q2VB0Ua/el2TdMYUogKwZXslOzoeUFO/0r+EGbXJiwNEn4XpiZBSqkhG9oc2iTe+73L96Q==
 -----END DIGEST-----
