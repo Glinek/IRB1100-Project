@@ -1,26 +1,4 @@
 ** PF INFO ***
-Time: Mon Mar 10 19:02:35 2025
-System: E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100
-RobotWare: 7.14.3
-RobotControl: 7.14.3
-Shutdown type: 1 mode: 1 reason: 1
-Image lost in previous shutdown: no
-Restart counter: 2
-CFG counter value: 8041
-Unfinished crit sec: 0
-
-*** PF INFO ***
-Time: Mon Mar 10 19:02:53 2025
-System: E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100
-RobotWare: 7.14.3
-RobotControl: 7.14.3
-Shutdown type: 1 mode: 1 reason: 1
-Image lost in previous shutdown: no
-Restart counter: 3
-CFG counter value: 8104
-Unfinished crit sec: 0
-
-*** PF INFO ***
 Time: Mon Mar 10 19:04:38 2025
 System: E:/PjSB3 - Robots&PLCs/ABB/ABB - school robot in RS - dev folder/RobotStudio Project dev/Virtual Controllers/IRB1100
 RobotWare: 7.14.3
@@ -295,6 +273,39 @@ Unfinished crit sec: 0
 *** PF INFO ***
 Time: Tue Apr 15 08:15:24 2025
 System: D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100
+RobotWare: 7.14.3
+RobotControl: 7.14.3
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 2
+CFG counter value: 7581
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Tue Apr 15 17:41:45 2025
+System: G:/PjSB5 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100
+RobotWare: 7.14.3
+RobotControl: 7.14.3
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 0
+CFG counter value: 7277
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Tue Apr 15 17:41:59 2025
+System: G:/PjSB5 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100
+RobotWare: 7.14.3
+RobotControl: 7.14.3
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 1
+CFG counter value: 7517
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Tue Apr 15 17:45:21 2025
+System: G:/PjSB5 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100
 RobotWare: 7.14.3
 RobotControl: 7.14.3
 Shutdown type: 1 mode: 1 reason: 1

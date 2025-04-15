@@ -252,6 +252,20 @@
 <13>Apr 15 08:15:23 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00251|-|robot|	251
 <13>Apr 15 08:15:23 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00252|-|robot|	252
 <13>Apr 15 08:15:23 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=848|1210|00253|-|robot|	253
+<9>Apr 15 17:41:46 IRB1100 ABB-UAL:01:Log data hash check failed (Log data altered)|-|error read from syslog.log|3220|00254|-|robot|syslog	254
+<13>Apr 15 17:41:56 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00255|-|robot|Default User	255
+<13>Apr 15 17:41:56 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00256|-|robot|Default User	256
+<13>Apr 15 17:41:56 IRB1100 ABB-UAL:01:Configuration upload|-|Start restore|1331|00257|-|robot|458759	257
+<13>Apr 15 17:41:57 IRB1100 ABB-UAL:01:Configuration upload|-|Start restore|1331|00258|-|robot|458759	258
+<13>Apr 15 17:41:58 IRB1100 ABB-UAL:01:Configuration upload|-|Start restore|1331|00259|-|robot|458759	259
+<13>Apr 15 17:41:58 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00260|-|robot|	260
+<13>Apr 15 17:41:58 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00261|-|robot|	261
+<13>Apr 15 17:41:58 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=772|1210|00262|-|robot|	262
+<13>Apr 15 17:42:05 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=458759|1110|00263|-|robot|Admin	263
+<13>Apr 15 17:42:05 IRB1100 ABB-UAL:01:Log-in successful|-|UAS_UID=524296|1110|00264|-|robot|Admin	264
+<13>Apr 15 17:45:20 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=524296|1210|00265|-|robot|	265
+<13>Apr 15 17:45:20 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=458759|1210|00266|-|robot|	266
+<13>Apr 15 17:45:20 IRB1100 ABB-UAL:01:Log-out (user logged out)|-|Socket=2920|1210|00267|-|robot|	267
 -----BEGIN DIGEST-----
-CwM2cQQbPDaBeXdDauuLkk5byxtwcjHl0mdQpEaVNEBQ5xYyRMHSgp+R7Ouu+jZleTZaaw==
+9wdKw18JMS5VgzeZN9ekuBZS5un+1PxcTEE2hwoSkGvnb5LSGQrCfc0uHdmC1c3TtTPMuw==
 -----END DIGEST-----
