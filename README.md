@@ -31,7 +31,3 @@ To get RobotStudio Project, please download the [lastest release](https://github
 ## Author
 This project has been made in RobotStudio by **Szymon Glinka**, Robotics Engineering Student from TL Katowice in years **2021-2026**
 
-
-
-testtetetsts
-
