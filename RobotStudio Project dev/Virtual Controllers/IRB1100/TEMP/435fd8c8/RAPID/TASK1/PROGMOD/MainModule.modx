@@ -1,0 +1,85 @@
+MODULE MainModule
+    ! Simple program for ABB robot that utilizes simple function for paletization
+    ! Changelog:
+    ! - Created on 14.01.2025 by Szymon Glinka
+    ! - Modified on 22.01.2025 by Szymon Ginka
+    
+    !=== Constants and variables ===
+    !All pallets starting points, for debugging
+	CONST robtarget palletNormal := [[228.37,-322.22,239.21],[0.00142003,0.370266,-0.928924,-0.000843609],[-1,-1,-2,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget palletAngle := [[169.56,184.12,150],[0.00105387,-0.864202,-0.503143,0.00128805],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget palletVert := [[296.22,-452.97,225.33],[0.00160053,-0.396286,-0.918126,0.000386036],[-1,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !Program specific constants
+    CONST robtarget upperAngleSmall := [[174.11,184.44,236.12],[0.0111279,0.527062,-0.849753,0.00146951],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget middlePoint := [[196.84,79.01,235.95],[0.0111276,0.527055,-0.849757,0.00146507],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !setting tool constans
+    !CONST signaldo gripper := do8;
+    !Variables for paletization func to work
+    VAR num iNextRow := 0;
+    VAR num iNextCol := 0;
+
+    !=== Variables ===
+    VAR robtarget offsetedUpperPickAP;
+    VAR robtarget offsetedUpperPickNP;
+    
+
+    !=== Main program ===
+    PROC main()
+        FOR steps FROM 0 TO 5 DO
+            offsetedUpperPickAP := paletization(upperAngleSmall, 1, 6, 0, 0, -14.5, 63.8, steps);
+            offsetedUpperPickNP := paletization(palletNormal, 1, 6, 0, 0, 0, 20, steps);
+            
+            !=== Moving arm ===
+            !---- Pick an element ----
+            MoveJ offsetedUpperPickNP, v50, z50, tool0;
+            MoveL Offs(offsetedUpperPickNP, 0, 0, 0), v50, fine, tool0;
+            !SetDO gripper, 1;
+            WaitTime 0.2;
+            MoveJ offsetedUpperPickNP, v50, z50, tool0;
+            !
+            !---- Move to middle point to avoid colision ----
+            MoveJ middlePoint, v50, z50, tool0;
+            !
+            !---- Place an element ----
+            MoveJ offsetedUpperPickAP, v50, z50, tool0;
+            MoveL Offs(offsetedUpperPickAP, 0, 0, 0), v50, fine, tool0;
+            !SetDO gripper, 0;
+            WaitTime 0.2;
+            MoveJ offsetedUpperPickAP, v50, z50, tool0;
+            !
+            !---- Move to middle point to avoid colision ----
+            MoveJ middlePoint, v50, z50, tool0;
+        ENDFOR    
+    ENDPROC
+    
+    !=== Paletization function ===
+    FUNC robtarget paletization(robtarget rtRobotFirstPosition, num iNumOfRows, num iNumOfCols, num iOffsetXrows, num iOffsetYrows, num iOffsetYcols, num iOffsetXcols, num iSteps)
+        ! Function that allows to use simple paletization options for pallet rotated in every direction. It takes 8 arguments: 
+        ! - rtRobotFirstPosition - base position from which all the moves are calculated.
+        ! - iNumOfRows, iNumOfCols - number of rows and columns of a given pallet. 
+        ! - iOffsetXrows, iOffsetYrows - offset in X and Y axis for rows.
+        ! - iOffsetYcols, iOffsetXcols - offset in Y and X axis for columns.
+        ! - iSteps - number of steps that the robot should take.
+
+        VAR num iOffsetedColumnPlace; VAR num iOffsetedRowPlace; VAR robtarget rtReturnPos;
+        
+        !---- Calculating row and column for the next position from given step and number of total rows and columns ----
+        IF iNumOfRows >= iNextRow THEN
+            IF iSteps MOD iNumOfCols <> 0 THEN
+                iNextCol := iNextCol + 1;
+            ELSEIF iSteps MOD iNumOfCols = 0 THEN
+                iNextCol := 0;
+                iNextRow := iNextRow + 1;
+            ENDIF
+        ENDIF
+        
+        !---- Calculating offset on colums(X) and rows(Y) ----
+        iOffsetedColumnPlace := iNextCol*iOffsetXcols + iNextRow*iOffsetXrows;
+        iOffsetedRowPlace := iNextCol*iOffsetYcols + iNextRow*iOffsetYrows;
+
+        !---- Calculating return position ----
+        rtReturnPos := Offs(rtRobotFirstPosition, iOffsetedRowPlace, iOffsetedColumnPlace, 0);    
+        
+        RETURN rtReturnPos;
+    ENDFUNC
+ENDMODULE

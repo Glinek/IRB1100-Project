@@ -1,0 +1,53 @@
+C:\a\3\s\DpUpdates\DpUpdates.cpp, 54	2025-04-15 07:56:29: Starting new log ***********************. 
+C:\a\3\s\DpUpdates\DpUpdates.cpp, 55	[INFO] Finalize the installation. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1147	Recreate 'D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/temp/INSTALL'
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1161	[INFO] InstallSystem starts. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1165	[INFO] Create system structures. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1476	[INFO] Building system structure in 'D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1492	[INFO] Building folders under 'D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1517	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/controller.rsf'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1563	GetProdsAndFeaturesFromCtrlrsfFile(), got 3 products. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 13 features for product 'RobotControl'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1192	[INFO] Get information of product 'RobotOS'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1201	[INFO] Get all features and feature data of product 'RobotOS'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 356	[INFO] Number of features for product 'RobotOS' is 1.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 359	[INFO] Get information for each feature.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotos' in file C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotOS_12.0.2/abb.robotics.robotos.rmf.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1192	[INFO] Get information of product 'RobotControl'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1201	[INFO] Get all features and feature data of product 'RobotControl'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 356	[INFO] Number of features for product 'RobotControl' is 13.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 359	[INFO] Get information for each feature.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.axiscomputer.none' in file C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/abb.robotics.robotcontrol.rmf.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.m28.01' in file C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/abb.robotics.robotcontrol.rmf.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.variant.c30' in file C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/abb.robotics.robotcontrol.rmf.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 405	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.controllerhw.varianttype.c30.typea' in file C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3/abb.robotics.robotcontrol.rmf.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1192	[INFO] Get information of product 'Robots'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1201	[INFO] Get all features and feature data of product 'Robots'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 356	[INFO] Number of features for product 'Robots' is 2.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 359	[INFO] Get information for each feature.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1829	[INFO] Product path 'C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotControl_7.14.3'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1854	[INFO] Product path 'C:/Users/szymo/AppData/Local/ABB/RobotWare/RobotOS_12.0.2'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1854	[INFO] Product path 'C:/Users/szymo/AppData/Local/ABB/RobotWare/Robots_1.14.0'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1877	[WARNING] Failed to get serial number or empty serial number. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1935	[INFO] Generating key.id, writing header.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 2159	[INFO] Generate file 'D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/system.xml'.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 2188	[WARNING] Unable to get serial number or empty serial number. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1265	All actions done, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 2438	[INFO] Installation is complete. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 909	[INFO] Need to update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 950	[INFO] File D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been updated. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 981	[INFO] Failed to get RWI version. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1517	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/controller.rsf'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1563	GetProdsAndFeaturesFromCtrlrsfFile(), got 3 products. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 13 features for product 'RobotControl'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1628	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 2037	[INFO] ResetAddInData status =0.
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 880	[INFO] Update prodinfo.xml. 
+C:\a\3\s\DpUpdates\DpUpdates_i.cpp, 1006	[INFO] File D:/PjSB3 - Robots/ABB/ABB - IRB1100 Robot model/RobotStudio Project dev/Virtual Controllers/IRB1100/internal/prodinfo.xml has been created, status = 0. 
