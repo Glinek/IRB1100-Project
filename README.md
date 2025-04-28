@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b306b83d-ec15-4c8a-b35e-10e9d92a6575" height="auto" width="500">
+  <img src="https://github.com/user-attachments/assets/6ce4f111-a2a7-462b-8d4e-e33ab9cdf5de" height="auto" width="500">
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/github/license/Glinek/IRB1100-Project">
