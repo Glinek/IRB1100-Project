@@ -1,8 +1,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6ce4f111-a2a7-462b-8d4e-e33ab9cdf5de" height="auto" width="500">
 </p>
-
-
 <p align="center">
   <img src="https://img.shields.io/github/license/Glinek/IRB1100-Project">
   <img src="https://img.shields.io/github/v/release/Glinek/IRB1100-Project">
@@ -11,6 +9,8 @@
   <img src="https://img.shields.io/badge/Made_By-Szymon_Glinka-blue">
 </p>
 
+### This repo has been archived. No longer have time to maintain it.
+  
 ## IRB1100 Model for my school robots
 This repository contains RobotStudio Project that has semi-accurate model of my school's IRB1100 educational setup.   
 ### Tools and credits
