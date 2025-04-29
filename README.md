@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Made_By-Szymon_Glinka-blue">
 </p>
 
-### This repo has been archived. No longer have time to maintain it.
+<h3 align="center"> Warning! This repo has been archived, no longer have time to maintain it.</h2>
   
 ## IRB1100 Model for my school robots
 This repository contains RobotStudio Project that has semi-accurate model of my school's IRB1100 educational setup.   
